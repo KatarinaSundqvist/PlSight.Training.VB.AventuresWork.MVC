@@ -5,6 +5,14 @@ VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "AventuresWork-Web", "AventuresWork-Web\AventuresWork-Web.vbproj", "{EC377F15-504B-4F8A-8B6F-596D8A4B3674}"
 EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Common.Library", "..\PlSight.Training.VBFundamentals.AdventureWorks\Common.Library\Common.Library.vbproj", "{596ADE59-22DB-47AF-B7F4-FB5A4F174633}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "AdventureWorks.DataLayer", "..\PlSight.Training.VBFundamentals.AdventureWorks\AdventureWorks.DataLayer\AdventureWorks.DataLayer.vbproj", "{B64DE30B-5031-4A75-B41F-D7F033610DF4}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "AdventureWorks.EntityLayer", "..\PlSight.Training.VBFundamentals.AdventureWorks\AdventureWorks.EntityLayer\AdventureWorks.EntityLayer.vbproj", "{31013B81-A6C5-47BF-BF92-D95B577FDF92}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "AdventureWorks.ViewModelLayer", "..\PlSight.Training.VBFundamentals.AdventureWorks\AdventureWorks.ViewModelLayer\AdventureWorks.ViewModelLayer.vbproj", "{4F66E2E0-C89A-47D9-933C-8072B6EBDD73}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +23,22 @@ Global
 		{EC377F15-504B-4F8A-8B6F-596D8A4B3674}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EC377F15-504B-4F8A-8B6F-596D8A4B3674}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EC377F15-504B-4F8A-8B6F-596D8A4B3674}.Release|Any CPU.Build.0 = Release|Any CPU
+		{596ADE59-22DB-47AF-B7F4-FB5A4F174633}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{596ADE59-22DB-47AF-B7F4-FB5A4F174633}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{596ADE59-22DB-47AF-B7F4-FB5A4F174633}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{596ADE59-22DB-47AF-B7F4-FB5A4F174633}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B64DE30B-5031-4A75-B41F-D7F033610DF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B64DE30B-5031-4A75-B41F-D7F033610DF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B64DE30B-5031-4A75-B41F-D7F033610DF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B64DE30B-5031-4A75-B41F-D7F033610DF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31013B81-A6C5-47BF-BF92-D95B577FDF92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31013B81-A6C5-47BF-BF92-D95B577FDF92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31013B81-A6C5-47BF-BF92-D95B577FDF92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31013B81-A6C5-47BF-BF92-D95B577FDF92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F66E2E0-C89A-47D9-933C-8072B6EBDD73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F66E2E0-C89A-47D9-933C-8072B6EBDD73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F66E2E0-C89A-47D9-933C-8072B6EBDD73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F66E2E0-C89A-47D9-933C-8072B6EBDD73}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
